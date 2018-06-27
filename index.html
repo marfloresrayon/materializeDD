@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Data Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+</head>
+<body>
+    <section class='container-fluid'>
+        <header class='row'>
+            <section class='col s3'>
+                <img class="responsive-img" src=img/Laboratoria_Logo_RGB_01.png> <!--To make images resize responsively to page width, you can add the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.-->
+            </section>
+            <section class='col s9 background-amarillo'>
+                <h3 class='pt1'>REPORTES</h3>
+            </section>
+        </header>
+        <main class='row'>
+
+            <sidebar class='col s3'>
+             <section class='col s3 offset-s1'>
+                <img class="responsive-img" src=img/circle.png>
+             </section>    
+             <section class='col s6'>
+                LUCÍA RAMÍREZ <br> e-mail@example.com
+             </section>
+            </sidebar>
+            <section class='col s9'>
+                    <div class="input-field col s12">
+                            <select>
+                              <option value="" disabled selected>Choose your option</option>
+                              <option value="1">Option 1</option>
+                              <option value="2">Option 2</option>
+                              <option value="3">Option 3</option>
+                            </select>
+                            <label>Materialize Select</label>
+                    </div>     
+            </section>
+        </main>  
+    </section>
+    <script src=app.js></script>
+</body>
+</html>
